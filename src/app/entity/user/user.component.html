@@ -1,0 +1,9 @@
+<div>
+    {{user?.id}}
+    {{user?.name}}
+    {{user?.username}}
+    <br>
+    <button (click)="posts(user.id)">Click to open posts this user</button>
+    <hr>
+</div>
+<app-all-post [postList]="postsList"></app-all-post>

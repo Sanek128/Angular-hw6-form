@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular-hw6-form"
+    }
+  },
+  "defaultProject": "Angular-hw6-form",
+  "cli": {
+    "analytics": false
+  }
 }
