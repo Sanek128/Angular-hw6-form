@@ -30,7 +30,7 @@ export class UserComponent implements OnInit {
       })
       
       this.postService.getAllPosts(id).subscribe(value => {
-        console.log(value, 'allposts');
+        console.log('----posts-----', value);
         this.postsList = value;
       })
     }

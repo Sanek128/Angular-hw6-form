@@ -29,7 +29,7 @@ export class AppComponent {
       console.log('-----this.user---',value);
       this.user = value;
       console.log('----id----',id);
-      console.log('userId', this.userId);
+      console.log('----userId----', this.userId);
     })
   }
 }
