@@ -3,7 +3,6 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { Post } from 'src/app/models/Post';
 import { User } from 'src/app/models/User';
 import { PostService } from 'src/app/services/post.service';
-import { UserService } from 'src/app/services/user.service';
 
 @Component({
   selector: 'app-user',
@@ -18,7 +17,6 @@ export class UserComponent implements OnInit {
 
   constructor(private router: Router,
               private activatedRoute: ActivatedRoute,
-              private userService:UserService,
               private postService: PostService
     ) { }
     
